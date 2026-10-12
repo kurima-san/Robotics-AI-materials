@@ -1,0 +1,9 @@
+.venv/
+__pycache__/
+*.pyc
+results/
+.DS_Store
+Thumbs.db
+vla-learning-progress*.json
+.env
+.env.*

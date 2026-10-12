@@ -1,0 +1,282 @@
+{
+  "torch": {
+    "title": "PyTorch — Learn the Basics",
+    "year": "公式教材",
+    "url": "https://docs.pytorch.org/tutorials/beginner/basics/intro.html",
+    "note": "テンソル、データ、モデル、最適化の入口。",
+    "accessed": "2026-10-11"
+  },
+  "autograd": {
+    "title": "PyTorch — Automatic Differentiation with torch.autograd",
+    "year": "公式教材",
+    "url": "https://docs.pytorch.org/tutorials/beginner/basics/autogradqs_tutorial.html",
+    "note": "勾配の計算と、学習・推論の区別。",
+    "accessed": "2026-10-11"
+  },
+  "tokenizer": {
+    "title": "Hugging Face — Tokenizers",
+    "year": "公式教材",
+    "url": "https://huggingface.co/learn/llm-course/chapter2/4",
+    "note": "単語・文字・サブワードの違い。",
+    "accessed": "2026-10-11"
+  },
+  "attention": {
+    "title": "Attention Is All You Need",
+    "year": "2017",
+    "url": "https://arxiv.org/abs/1706.03762",
+    "note": "Attention、位置情報、Transformerの基本構造。",
+    "accessed": "2026-10-11"
+  },
+  "vit": {
+    "title": "An Image is Worth 16x16 Words",
+    "year": "2020",
+    "url": "https://arxiv.org/abs/2010.11929",
+    "note": "画像パッチを系列として扱うVision Transformer。",
+    "accessed": "2026-10-11"
+  },
+  "clip": {
+    "title": "Learning Transferable Visual Models From Natural Language Supervision",
+    "year": "2021",
+    "url": "https://arxiv.org/abs/2103.00020",
+    "note": "画像と文章の対照学習。",
+    "accessed": "2026-10-11"
+  },
+  "llava": {
+    "title": "Visual Instruction Tuning",
+    "year": "2023",
+    "url": "https://arxiv.org/abs/2304.08485",
+    "note": "画像エンコーダとLLMをつなぐVLMの例。",
+    "accessed": "2026-10-11"
+  },
+  "instruct": {
+    "title": "Training language models to follow instructions with human feedback",
+    "year": "2022",
+    "url": "https://arxiv.org/abs/2203.02155",
+    "note": "教師あり調整、選好データ、RLHF。",
+    "accessed": "2026-10-11"
+  },
+  "dpo": {
+    "title": "Direct Preference Optimization",
+    "year": "2023",
+    "url": "https://arxiv.org/abs/2305.18290",
+    "note": "好ましい回答と好ましくない回答の組からの調整。",
+    "accessed": "2026-10-11"
+  },
+  "rag": {
+    "title": "Retrieval-Augmented Generation for Knowledge-Intensive NLP Tasks",
+    "year": "2020",
+    "url": "https://arxiv.org/abs/2005.11401",
+    "note": "外部検索と生成を組み合わせる基本発想。",
+    "accessed": "2026-10-11"
+  },
+  "lora": {
+    "title": "LoRA: Low-Rank Adaptation of Large Language Models",
+    "year": "2021",
+    "url": "https://arxiv.org/abs/2106.09685",
+    "note": "少数の追加パラメータによる適応。",
+    "accessed": "2026-10-11"
+  },
+  "qlora": {
+    "title": "QLoRA: Efficient Finetuning of Quantized LLMs",
+    "year": "2023",
+    "url": "https://arxiv.org/abs/2305.14314",
+    "note": "量子化した基盤重みとLoRAを組み合わせる。",
+    "accessed": "2026-10-11"
+  },
+  "kd": {
+    "title": "Distilling the Knowledge in a Neural Network",
+    "year": "2015",
+    "url": "https://arxiv.org/abs/1503.02531",
+    "note": "教師の確率分布を使う知識蒸留。",
+    "accessed": "2026-10-11"
+  },
+  "kd-tutorial": {
+    "title": "PyTorch — Knowledge Distillation Tutorial",
+    "year": "公式教材",
+    "url": "https://docs.pytorch.org/tutorials/beginner/knowledge_distillation_tutorial.html",
+    "note": "ソフトターゲットと特徴表現の蒸留例。",
+    "accessed": "2026-10-11"
+  },
+  "kv": {
+    "title": "Hugging Face Transformers — Cache strategies",
+    "year": "公式資料",
+    "url": "https://huggingface.co/docs/transformers/en/kv_cache",
+    "note": "KVキャッシュの役割とメモリのトレードオフ。",
+    "accessed": "2026-10-11"
+  },
+  "moe": {
+    "title": "Mixtral of Experts",
+    "year": "2024",
+    "url": "https://arxiv.org/abs/2401.04088",
+    "note": "疎な専門家選択と総パラメータ・稼働パラメータの区別。",
+    "accessed": "2026-10-11"
+  },
+  "dagger": {
+    "title": "A Reduction of Imitation Learning and Structured Prediction to No-Regret Online Learning",
+    "year": "2011",
+    "url": "https://arxiv.org/abs/1011.0686",
+    "note": "自分の行動で観測分布が変わる問題とDAgger。",
+    "accessed": "2026-10-11"
+  },
+  "ppo": {
+    "title": "Proximal Policy Optimization Algorithms",
+    "year": "2017",
+    "url": "https://arxiv.org/abs/1707.06347",
+    "note": "環境との相互作用から学ぶ方策最適化の例。",
+    "accessed": "2026-10-11"
+  },
+  "act": {
+    "title": "Learning Fine-Grained Bimanual Manipulation with Low-Cost Hardware",
+    "year": "2023",
+    "url": "https://arxiv.org/abs/2304.13705",
+    "note": "ACT、行動チャンク、時間的な統合。",
+    "accessed": "2026-10-11"
+  },
+  "ddpm": {
+    "title": "Denoising Diffusion Probabilistic Models",
+    "year": "2020",
+    "url": "https://arxiv.org/abs/2006.11239",
+    "note": "ノイズ付加と逆向きの生成過程。",
+    "accessed": "2026-10-11"
+  },
+  "dp": {
+    "title": "Diffusion Policy — 研究プロジェクト",
+    "year": "2023",
+    "url": "https://diffusion-policy.cs.columbia.edu/",
+    "note": "行動列の拡散生成とreceding-horizon制御。",
+    "accessed": "2026-10-11"
+  },
+  "flow": {
+    "title": "Flow Matching for Generative Modeling",
+    "year": "2022",
+    "url": "https://arxiv.org/abs/2210.02747",
+    "note": "確率分布を運ぶベクトル場を学習する。",
+    "accessed": "2026-10-11"
+  },
+  "rt2": {
+    "title": "RT-2: Vision-Language-Action Models Transfer Web Knowledge to Robotic Control",
+    "year": "2023",
+    "url": "https://arxiv.org/abs/2307.15818",
+    "note": "VLMの知識と行動トークンを結びつける。",
+    "accessed": "2026-10-11"
+  },
+  "openvla": {
+    "title": "OpenVLA: An Open-Source Vision-Language-Action Model",
+    "year": "2024",
+    "url": "https://arxiv.org/abs/2406.09246",
+    "note": "公開VLAの学習構成と適応。",
+    "accessed": "2026-10-11"
+  },
+  "openvla-project": {
+    "title": "OpenVLA — 研究プロジェクト",
+    "year": "公式資料",
+    "url": "https://openvla.github.io/",
+    "note": "原論文と後続更新を区別して確認する入口。",
+    "accessed": "2026-10-11"
+  },
+  "pi0": {
+    "title": "π₀: A Vision-Language-Action Flow Model for General Robot Control",
+    "year": "2024",
+    "url": "https://arxiv.org/abs/2410.24164",
+    "note": "VLMと連続行動生成器の組み合わせ。",
+    "accessed": "2026-10-11"
+  },
+  "pi05": {
+    "title": "π₀.₅: a Vision-Language-Action Model with Open-World Generalization",
+    "year": "2025",
+    "url": "https://arxiv.org/abs/2504.16054",
+    "note": "異種データの共学習と一般化。",
+    "accessed": "2026-10-11"
+  },
+  "fast": {
+    "title": "FAST: Efficient Action Tokenization for Vision-Language-Action Models",
+    "year": "2025",
+    "url": "https://arxiv.org/abs/2501.09747",
+    "note": "時間方向の構造を利用する行動トークン化。",
+    "accessed": "2026-10-11"
+  },
+  "openpi": {
+    "title": "Physical Intelligence — openpi",
+    "year": "公式実装",
+    "url": "https://github.com/Physical-Intelligence/openpi",
+    "note": "π₀、π₀-FAST、π₀.₅の公開実装と要件。",
+    "accessed": "2026-10-11"
+  },
+  "groot-paper": {
+    "title": "GR00T N1: An Open Foundation Model for Generalist Humanoid Robots",
+    "year": "2025",
+    "url": "https://arxiv.org/abs/2503.14734",
+    "note": "N1の二系統構成と異種データの利用。",
+    "accessed": "2026-10-11"
+  },
+  "groot": {
+    "title": "NVIDIA — Isaac-GR00T",
+    "year": "公式実装",
+    "url": "https://github.com/NVIDIA/Isaac-GR00T",
+    "note": "確認時点のREADMEはN1.7。モデル世代、入出力、実装要件を確認する。",
+    "accessed": "2026-10-11"
+  },
+  "oxe": {
+    "title": "Open X-Embodiment: Robotic Learning Datasets and RT-X Models",
+    "year": "2023",
+    "url": "https://arxiv.org/abs/2310.08864",
+    "note": "異なるロボットのデータを集約する取り組み。",
+    "accessed": "2026-10-11"
+  },
+  "lerobot": {
+    "title": "Hugging Face — LeRobot documentation",
+    "year": "公式資料",
+    "url": "https://huggingface.co/docs/lerobot/en/index",
+    "note": "データ収集、学習、評価、ロボットとの接続。",
+    "accessed": "2026-10-11"
+  },
+  "dreamer": {
+    "title": "Mastering Diverse Domains through World Models",
+    "year": "2023",
+    "url": "https://arxiv.org/abs/2301.04104",
+    "note": "潜在世界モデルの中で行動を改善するDreamerV3。",
+    "accessed": "2026-10-11"
+  },
+  "randomization": {
+    "title": "Domain Randomization for Transferring Deep Neural Networks from Simulation to the Real World",
+    "year": "2017",
+    "url": "https://arxiv.org/abs/1703.06907",
+    "note": "シミュレーションのばらつきを利用する一般化。",
+    "accessed": "2026-10-11"
+  },
+  "r1": {
+    "title": "DeepSeek-R1: Incentivizing Reasoning Capability in LLMs via Reinforcement Learning",
+    "year": "2025",
+    "url": "https://arxiv.org/abs/2501.12948",
+    "note": "推論能力の強化学習と生成データによる蒸留。",
+    "accessed": "2026-10-11"
+  },
+  "ttc": {
+    "title": "Scaling LLM Test-Time Compute Optimally can be More Effective than Scaling Model Parameters",
+    "year": "2024",
+    "url": "https://arxiv.org/abs/2408.03314",
+    "note": "推論時の計算配分、探索と検証。",
+    "accessed": "2026-10-11"
+  },
+  "nb-source": {
+    "title": "Google — ノートブックの新しいソースを追加または検索する",
+    "year": "公式ヘルプ",
+    "url": "https://support.google.com/notebooklm/answer/16215270?hl=ja",
+    "note": "URL取り込みはページ本文。リンク先や画像は取り込まれない。",
+    "accessed": "2026-10-11"
+  },
+  "nb-video": {
+    "title": "Google — 動画解説を生成する",
+    "year": "公式ヘルプ",
+    "url": "https://support.google.com/notebooklm/answer/16454555?hl=ja",
+    "note": "Studioの動画解説、形式・言語・カスタム指示。",
+    "accessed": "2026-10-11"
+  },
+  "pages": {
+    "title": "GitHub — Configuring a publishing source for your GitHub Pages site",
+    "year": "公式ヘルプ",
+    "url": "https://docs.github.com/en/pages/getting-started-with-github-pages/configuring-a-publishing-source-for-your-github-pages-site",
+    "note": "ブランチと公開フォルダの選択。",
+    "accessed": "2026-10-11"
+  }
+}
